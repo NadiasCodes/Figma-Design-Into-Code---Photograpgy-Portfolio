@@ -49,7 +49,7 @@ li:hover {
     top: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--second-color);
+    background-color: #1B1B1B;
     bottom: 0;
     z-index: -1;
     width: 200px;

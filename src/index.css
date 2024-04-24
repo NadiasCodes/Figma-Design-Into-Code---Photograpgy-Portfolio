@@ -121,6 +121,14 @@ body {
   .container-box {
     max-width: 1280px;
   }
+  .hero-text h1 {
+    font-size: 70px;
+  }
+  .hero-text h2 {
+    margin-top: 350px;
+
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -133,16 +141,42 @@ body {
   .container-box {
     max-width: 768px;
   }
+  .hero-text h1 {
+    font-size: 60px;
+  }
+  .hero-text h2 {
+    font-size: 40px;
+  }
 }
 @media (max-width: 768px) {
   .container-box {
     max-width: 640px;
+  }
+  .hero-text h1 {
+    font-size: 40px;
+  }
+  .hero-text h2 {
+    font-size: 28px;
+  }
+  .hero-btn {
+    margin-top: 40px;
   }
 }
 
 @media (max-width: 640px) {
   .container-box {
     max-width: 475px;
+  }
+  .hero-text p {
+    font-size: 16px;
+  }
+  .hero-btn {
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 15px 15px;
+    width: 200px;
+
+    font-size: 12px;
   }
 }
 @media (max-width: 475px) {
