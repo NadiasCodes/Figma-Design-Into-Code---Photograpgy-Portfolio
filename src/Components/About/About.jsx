@@ -39,17 +39,6 @@ const About = () => {
             </div>
           </Col>
         </Row>
-        <Row>
-          <Col>
-            <img src={PhotoOne} className=" gallery-image" />
-          </Col>
-          <Col>
-            <img src={PhotoTwo} className=" gallery-image" />
-          </Col>
-          <Col>
-            <img src={PhotoThree} className="gallery-image" />
-          </Col>
-        </Row>
       </Container>
     </div>
   );
