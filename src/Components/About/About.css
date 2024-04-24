@@ -52,14 +52,14 @@
 .camera-box span {
   margin: 10px;
 }
-.image-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.display-images{
-    margin-top: 20px;
-    margin: 40px;
+.display-images {
+  margin-top: 20px;
+  margin: 40px;
+  aspect-ratio: auto;
 }

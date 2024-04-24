@@ -6,10 +6,8 @@
   --second-color: #282323;
 
   /* Text Shadow */
-  --shadow-text:rgb(0, 0, 0) 1px 0 8px;
+  --shadow-text: rgb(0, 0, 0) 1px 0 8px;
 }
-
-
 
 /* Box sizing rules */
 *,
@@ -134,11 +132,38 @@ body {
 
     font-size: 40px;
   }
+  .about-picture {
+    margin-left: 0px;
+  }
+  .about-box h1 {
+    font-size: 44px;
+  }
+  .about-box p {
+    font-size: 17px;
+    margin-top: 35px;
+  }
+  .social-icon {
+    margin-bottom: 70px;
+  }
+  .camera-box {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 1280px) {
   .container-box {
     max-width: 1024px;
+  }
+  .social-icon {
+    margin-bottom: 50px;
+  }
+  .camera-box {
+    margin-bottom: 4px;
+  }
+  .default-btn {
+    padding: 15px 15px;
+    width: 200px;
+    font-size: 13px;
   }
 }
 
@@ -152,6 +177,30 @@ body {
   .hero-text h2 {
     font-size: 40px;
   }
+  .about-box h4 {
+    font-size: 20px;
+    margin-bottom: 13px;
+  }
+  .about-box h1 {
+    font-size: 32px;
+  }
+  .about-box p {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  .camera-header {
+    font-size: 18px;
+  }
+  .camera-box {
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: inline-flex;
+  }
+  span {
+    font-size: 14px;
+  }
+
 }
 @media (max-width: 768px) {
   .container-box {
@@ -175,7 +224,7 @@ body {
   .hero-text p {
     font-size: 16px;
   }
-  .hero-btn {
+  .default-btn {
     margin-top: 20px;
     border-radius: 50px;
     padding: 15px 15px;

@@ -6,7 +6,7 @@ import FacebookIcon from "../../assets/facebook.png";
 import InstagramIcon from "../../assets/instagram.png";
 import LinkedinIcon from "../../assets/linkedin.png";
 import CameraIcon from "../../assets/camera.png";
-import PhotoOne from "../../assets/photo (1).png";
+import PhotoOne from "../../assets/photo (9).png";
 import PhotoTwo from "../../assets/photo (2).png";
 import PhotoThree from "../../assets/photo (3).png";
 
@@ -16,7 +16,7 @@ const About = () => {
       <Container className="container-box">
         <Row>
           <Col xs={12} md={6} xl={7}>
-            <img src={AboutPicture} alt="The photographer" className="about-picture img-fluid" />
+            <img src={AboutPicture} alt="The photographer" className="about-picture" />
           </Col>
           <Col xs={12} md={6} xl={5}>
             <div className="about-box">
