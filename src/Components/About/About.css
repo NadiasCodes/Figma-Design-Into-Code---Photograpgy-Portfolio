@@ -1,0 +1,65 @@
+.about {
+  margin-top: 0;
+  padding: 95px 0 100px 0;
+  color: #ffffff;
+}
+
+.about-box h4 {
+  color: #f65282;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.about-box h1 {
+  font-weight: bold;
+  letter-spacing: 6px;
+  font-size: 64px;
+  text-shadow: var(--shadow-text);
+}
+
+.about-box p {
+  font-size: 18px;
+  margin-top: 35px;
+}
+
+.about-picture {
+  margin-left: 100px;
+}
+
+.social-box {
+  display: flex;
+}
+.social-icon {
+  width: 20px;
+  margin: 40px 40px;
+  margin-left: 0;
+  margin-bottom: 90px;
+}
+.camera-header {
+  color: #f65282;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.camera-box {
+  display: inline-flex;
+  background-color: #2d2727;
+  object-fit: contain;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.camera-box span {
+  margin: 10px;
+}
+.image-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.display-images{
+    margin-top: 20px;
+    margin: 40px;
+}

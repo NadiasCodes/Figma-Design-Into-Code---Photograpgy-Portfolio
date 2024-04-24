@@ -12,7 +12,7 @@ const Hero = () => {
           Nisl faucibus quis urna nibh ut amet. Diam suscipit
           <br /> pretium massa, sollicitudin in risus in. Sagittis.
         </p>
-        <button className="hero-btn">GET STARTED</button>
+        <button className="default-btn">GET STARTED</button>
       </div>
     </section>
   );
