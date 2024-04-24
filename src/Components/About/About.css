@@ -4,12 +4,10 @@
   color: #ffffff;
 }
 
-
 .about-box h4 {
   color: #f65282;
   margin-bottom: 30px;
   font-size: 25px;
- 
 }
 
 .about-box h1 {
@@ -25,7 +23,10 @@
 }
 
 .about-picture {
- 
+  margin-left: 100px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .social-box {
@@ -54,13 +55,4 @@
 .camera-box span {
   margin: 10px;
 }
-.image-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.display-images {
-  margin-top: 20px;
-  margin: 40px;
-}

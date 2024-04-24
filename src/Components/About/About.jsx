@@ -22,10 +22,7 @@ const About = () => {
             <div className="about-box">
               <h4>ABOUT ME</h4>
               <h1>SHELLEY WHITE</h1>
-              <p>
-                Nisl faucibus quis urna nibh ut amet diam suscipit pretium massa <br />
-                sollicitudin in risus in sagittis nisl faucibus quis urna nibh ut amet <br /> diam suscipit pretium massa, sollicitudin in risus in. Sagittis.
-              </p>
+              <p>Nisl faucibus quis urna nibh ut amet diam suscipit pretium massa sollicitudin in risus in sagittis nisl faucibus quis urna nibh ut amet diam suscipit pretium massa, sollicitudin in risus in. Sagittis.</p>
             </div>
             <div className="social-box">
               <img src={FacebookIcon} className=" social-icon img-fluid" />
@@ -42,11 +39,17 @@ const About = () => {
             </div>
           </Col>
         </Row>
-        <div className="image-box">
-          <img src={PhotoOne} className=" display-images  img-fluid" />
-          <img src={PhotoTwo} className=" display-images  img-fluid" />
-          <img src={PhotoThree} className=" display-images  img-fluid" />
-        </div>
+        <Row>
+          <Col>
+            <img src={PhotoOne} className=" gallery-image" />
+          </Col>
+          <Col>
+            <img src={PhotoTwo} className=" gallery-image" />
+          </Col>
+          <Col>
+            <img src={PhotoThree} className="gallery-image" />
+          </Col>
+        </Row>
       </Container>
     </div>
   );
