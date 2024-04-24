@@ -20,7 +20,7 @@ nav ul li {
 
 .nav-container h1 {
   filter: blur(4);
-  filter: drop-shadow(25% #000000);
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 
 .menu-icon {
