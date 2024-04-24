@@ -16,7 +16,7 @@ const About = () => {
       <Container className="container-box">
         <Row>
           <Col xs={12} md={6} xl={7}>
-            <img src={AboutPicture} alt="The photographer" className="about-picture" />
+            <img src={AboutPicture} alt="The photographer" className="about-picture " />
           </Col>
           <Col xs={12} md={6} xl={5}>
             <div className="about-box">
