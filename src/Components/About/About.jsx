@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row, Container } from "react-bootstrap";
+import { Col, Row, Container, } from "react-bootstrap";
 import "./About.css";
 import AboutPicture from "../../assets/about.png";
 import FacebookIcon from "../../assets/facebook.png";
@@ -8,7 +8,7 @@ import LinkedinIcon from "../../assets/linkedin.png";
 import CameraIcon from "../../assets/camera.png";
 import PhotoOne from "../../assets/photo (9).png";
 import PhotoTwo from "../../assets/photo (2).png";
-import PhotoThree from "../../assets/photo (3).png";
+import PhotoThree from "../../assets/photo (1).png";
 
 const About = () => {
   return (
@@ -40,6 +40,11 @@ const About = () => {
           </Col>
         </Row>
       </Container>
+      <div className="Gallery-Box">
+        <img src={PhotoOne} alt="" className="img-responsive" />
+        <img src={PhotoTwo} alt="" className="img-responsive" />
+        <img src={PhotoThree} alt="" className="img-responsive" />
+      </div>
     </div>
   );
 };

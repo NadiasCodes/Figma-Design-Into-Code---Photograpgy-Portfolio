@@ -189,7 +189,11 @@ body {
     margin: 20px;
   }
   .about-picture {
-    margin-left: -20px;
+    margin-left: -15px;
+  }
+
+  .img-responsive {
+    width: 300px;
   }
 }
 
@@ -252,6 +256,10 @@ body {
     padding: 13px 13px;
     width: 180px;
     font-size: 11px;
+  }
+
+  .img-responsive {
+    width: 250px;
   }
 }
 @media (max-width: 768px) {
@@ -326,6 +334,9 @@ body {
     font-size: 11px;
     display: block;
     margin: 0 auto;
+  }
+  .img-responsive {
+    display: none;
   }
 }
 

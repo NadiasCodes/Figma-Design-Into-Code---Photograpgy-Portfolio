@@ -23,7 +23,7 @@
 }
 
 .about-picture {
-  margin-left: 100px;
+  margin-left: 118px;
   max-width: 100%;
   height: auto;
   object-fit: cover;
@@ -36,7 +36,7 @@
   width: 20px;
   margin: 40px 40px;
   margin-left: 0;
-  margin-bottom: 90px;
+  margin-bottom: 70px;
 }
 .camera-header {
   color: #f65282;
@@ -56,3 +56,22 @@
   margin: 10px;
 }
 
+.Gallery-Box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.img-responsive {
+  margin-top: 80px;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.img-responsive:hover{
+  transform: scale(1.2);
+}
