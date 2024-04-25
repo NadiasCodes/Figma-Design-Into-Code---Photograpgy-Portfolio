@@ -7,13 +7,17 @@ import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import Images from "../Images/Images";
 import "../Images/Images.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Gallery = () => {
   const [index, setIndex] = useState(-1);
 
   return (
-    <div>
-      <h1 className="gallery-header">GALLERY</h1>
+    <div id="gallery">
+      <h1 className="gallery-header" data-aos="fade-right" data-aos-duration="2000">
+        GALLERY
+      </h1>
       <Images data={slides} onClick={(currentIndex) => setIndex(currentIndex)} />
       <Lightbox plugins={[Captions]} captions={{ showToggle: true, descriptionTextAlign: "end" }} index={index} open={index >= 0} slides={slides} close={() => setIndex(-1)} />
     </div>
