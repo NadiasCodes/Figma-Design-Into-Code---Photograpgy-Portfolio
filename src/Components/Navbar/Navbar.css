@@ -26,11 +26,11 @@ nav ul li {
 .menu-icon {
   display: none;
 }
-li {
+nav li {
   transition: 1s;
 }
 
-li:hover {
+ nav li:hover {
   color: rgb(228, 225, 216);
   transform: translateY(-6px);
   cursor: pointer;

@@ -344,6 +344,7 @@ body {
   }
   .hero-text p {
     font-size: 16px;
+    margin-bottom: 60px;
   }
 
   .about-picture {
@@ -359,16 +360,17 @@ body {
     align-items: center;
   }
   .social-icon {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 
   .about-box h4 {
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 27px;
     text-align: center;
   }
   .about-box h1 {
     font-size: 32px;
+    margin-bottom: 30px;
     text-align: center;
   }
   .about-box p {
@@ -376,6 +378,7 @@ body {
 
     margin-top: 25px;
     text-align: center;
+    margin-bottom: 40px;
   }
   .camera-header {
     font-size: 16px;
@@ -388,7 +391,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
   span {
     font-size: 12px;
@@ -403,10 +406,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+   position:relative;
+   right: -16px;
   }
-}
-@media (max-width: 475px) {
-  .container-box {
-    width: 100%;
+  .contact h1 {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+  .contact-col {
+    margin-top: 40px;
+    padding: 20px 0;
+  }
+  .gallery-header {
+    font-size: 45px;
+
+    margin-top: 10px;
+  }
+  .images-container {
+    max-width: 400px;
+    margin: 20px auto;
   }
 }

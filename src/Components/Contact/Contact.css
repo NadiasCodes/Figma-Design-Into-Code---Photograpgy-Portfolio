@@ -1,0 +1,38 @@
+.contact {
+  margin-top: 0;
+}
+
+.contact h1 {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 5px;
+  text-shadow: var(--shadow-text);
+  font-size: 72px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.contact h3 {
+  color: #f65282;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+.contact-col {
+  margin-top: 90px;
+  padding: 20px 0;
+}
+
+.contact-col ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.contact-col li {
+  font-size: 18px;
+}
+.contact-col ul li img {
+  margin-right: 10px;
+}

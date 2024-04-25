@@ -1,7 +1,6 @@
 .about {
   margin-top: 0;
   padding: 95px 0 100px 0;
-  color: #ffffff;
 }
 
 .about-box h4 {
@@ -37,6 +36,11 @@
   margin: 40px 40px;
   margin-left: 0;
   margin-bottom: 70px;
+  transition: 1s;
+}
+.social-icon:hover {
+  transform: translateY(-8px);
+  cursor: pointer;
 }
 .camera-header {
   color: #f65282;
@@ -55,5 +59,3 @@
 .camera-box span {
   margin: 10px;
 }
-
-

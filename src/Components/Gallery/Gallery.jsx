@@ -6,9 +6,9 @@ import "yet-another-react-lightbox/plugins/captions.css";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import Images from "../Images/Images";
-import "../Images/Images.css"
+import "../Images/Images.css";
 
-const Galley = () => {
+const Gallery = () => {
   const [index, setIndex] = useState(-1);
 
   return (
@@ -20,4 +20,4 @@ const Galley = () => {
   );
 };
 
-export default Galley;
+export default Gallery;

@@ -6,9 +6,6 @@ import FacebookIcon from "../../assets/facebook.png";
 import InstagramIcon from "../../assets/instagram.png";
 import LinkedinIcon from "../../assets/linkedin.png";
 import CameraIcon from "../../assets/camera.png";
-import PhotoOne from "../../assets/photo3.png";
-import PhotoTwo from "../../assets/photo2.png";
-import PhotoThree from "../../assets/photo1.png";
 
 const About = () => {
   return (
@@ -40,7 +37,6 @@ const About = () => {
           </Col>
         </Row>
       </Container>
-     
     </div>
   );
 };
