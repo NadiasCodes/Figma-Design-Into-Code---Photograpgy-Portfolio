@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Photography Portfolio</h1>
 
-<p align="center"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/380/original/Beige_Aesthetic_Pastel_Collage_Memories_Moodboard_Portrait_Photo_Collage.png?1714054148" alt="project-image"></p>
+<p align="center"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/381/original/Untitled_design.png?17114055059" alt="project-image"></p>
 
 <p id="description">I started my new project series where I transform Figma projects into Code. This specific project was one of many designs I got during my Bootcamp but I wasn't feeling ready to handle such a project back due to my limited knowledge. However, with more experience under my belt now, I've decided that I'm prepared to take on such projects!</p>
 
