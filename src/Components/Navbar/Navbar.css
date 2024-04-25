@@ -19,10 +19,8 @@ nav ul li {
 }
 
 .nav-container h1 {
-  filter: blur(4);
   text-shadow: var(--shadow-text);
 }
-
 .menu-icon {
   display: none;
 }
@@ -30,10 +28,11 @@ nav li {
   transition: 1s;
 }
 
- nav li:hover {
+nav li:hover {
   color: rgb(228, 225, 216);
   transform: translateY(-6px);
   cursor: pointer;
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
 }
 
 @media (max-width: 700px) {

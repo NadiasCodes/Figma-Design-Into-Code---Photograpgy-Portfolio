@@ -336,6 +336,23 @@ body {
     display: block;
     margin: 0 auto;
   }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-container p {
+    margin-right: 0px;
+  }
+  .footer-container h1 {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .social-footer {
+    margin: 30px 10px;
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -406,8 +423,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-   position:relative;
-   right: -16px;
+    position: relative;
+    right: -16px;
   }
   .contact h1 {
     font-size: 50px;
@@ -425,5 +442,23 @@ body {
   .images-container {
     max-width: 400px;
     margin: 20px auto;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-container p {
+    margin-right: 0px;
+  }
+  .footer-container h1 {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .social-footer {
+    margin: 30px 10px;
+    margin-bottom: 30px;
   }
 }

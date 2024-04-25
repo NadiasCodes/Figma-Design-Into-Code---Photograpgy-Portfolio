@@ -1,0 +1,33 @@
+.footer-container {
+  background-color: #282323;
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 5px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.social-footer-box ul li {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.social-footer {
+  margin: 60px 40px;
+  margin-bottom: 30px;
+}
+
+.footer-container h1{
+ margin-left: 10px;
+ text-shadow: var(--shadow-text);
+ 
+}
+.footer-container p{
+    margin-right: 20px;
+}

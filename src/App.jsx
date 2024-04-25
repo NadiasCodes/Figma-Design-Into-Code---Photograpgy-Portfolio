@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import About from "./Components/About/About";
 import Gallery from "./Components/Gallery/Gallery";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Hero />
       <About />
       <Gallery />
-      <Contact/>
+      <Contact />
+      <Footer/>
     </div>
   );
 }
