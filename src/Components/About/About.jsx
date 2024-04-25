@@ -40,11 +40,7 @@ const About = () => {
           </Col>
         </Row>
       </Container>
-      <div className="Gallery-Box">
-        <img src={PhotoOne} alt="" className="img-responsive" />
-        <img src={PhotoTwo} alt="" className="img-responsive" />
-        <img src={PhotoThree} alt="" className="img-responsive" />
-      </div>
+     
     </div>
   );
 };

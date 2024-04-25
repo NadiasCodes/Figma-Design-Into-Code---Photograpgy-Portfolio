@@ -1,9 +1,0 @@
-.gallery-header {
-  display: flex;
-  justify-content: center;
-  letter-spacing: 5px;
-  text-shadow: var(--shadow-text);
-  font-size: 72px;
-  font-weight: bold;
-  margin-top: 30px;
-}

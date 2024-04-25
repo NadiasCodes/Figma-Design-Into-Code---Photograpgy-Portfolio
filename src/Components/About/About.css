@@ -56,22 +56,4 @@
   margin: 10px;
 }
 
-.Gallery-Box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  gap: 40px;
-}
 
-.img-responsive {
-  margin-top: 80px;
-  display: block;
-  object-fit: cover;
-  border-radius: 10px;
-  transition: 1s;
-}
-
-.img-responsive:hover{
-  transform: scale(1.2);
-}
