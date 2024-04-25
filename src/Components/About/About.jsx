@@ -1,14 +1,14 @@
 import React from "react";
-import { Col, Row, Container, } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 import "./About.css";
 import AboutPicture from "../../assets/about.png";
 import FacebookIcon from "../../assets/facebook.png";
 import InstagramIcon from "../../assets/instagram.png";
 import LinkedinIcon from "../../assets/linkedin.png";
 import CameraIcon from "../../assets/camera.png";
-import PhotoOne from "../../assets/photo (9).png";
-import PhotoTwo from "../../assets/photo (2).png";
-import PhotoThree from "../../assets/photo (1).png";
+import PhotoOne from "../../assets/photo3.png";
+import PhotoTwo from "../../assets/photo2.png";
+import PhotoThree from "../../assets/photo1.png";
 
 const About = () => {
   return (
